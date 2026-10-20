@@ -1,0 +1,7 @@
+Evaluation Metric,Formula / Protocol,Static AVM Baseline,Dual-Gate Bimodal Pipeline,Target Threshold,Compliance
+Detection Accuracy,(TP + TN) / Total,75.00%,98.00%,> 85.00%,PASS
+Detection Recall,TP / (TP + FN),100.00%,96.00%,> 85.00%,PASS
+Model Precision,TP / (TP + FP),50.00%,96.00%,Higher is Better,PASS
+False Positive Rate (FPR),FP / (FP + TN),33.33%,1.33%,< 5.00%,PASS
+F1 Score,2 × (Prec × Rec) / (Prec + Rec),0.6667,0.9600,Higher is Better,PASS
+Quadratic Weighted Kappa (QWK),Cohen (1968) formulation,0.5000,0.9467,> 0.8000,PASS
