@@ -1,0 +1,8 @@
+﻿Metric,Formula / Protocol,Static Model,Semantic Pipeline,Target Threshold,Compliance (Semantic)
+Detection Accuracy,(TP + TN) / Total,87.30%,100.00%,> 85%,PASS
+Detection Recall,TP / (TP + FN),100.00%,100.00%,> 85%,PASS
+Model Precision,TP / (TP + FP),29.85%,100.00%,Higher is Better,PASS
+False Positive Rate,FP / (FP + TN),13.43%,0.00%,< 5%,PASS
+F1 Score,2 * (Prec * Rec) / (Prec + Rec),0.4598,1.0000,Higher is Better,PASS
+Quadratic Weighted Kappa (QWK),1 - (Σ w_ij O_ij / Σ w_ij E_ij),0.4107,1.0000,> 0.8000,PASS
+Decision Gate Latency,High-Res Vectorized Evaluation,0.0016 ms,0.0013 ms,< 2000 ms,PASS
